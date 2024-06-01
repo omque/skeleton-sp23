@@ -3,6 +3,7 @@ package aoa.guessers;
 import aoa.utils.FileUtils;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class NaiveLetterFreqGuesser implements Guesser {
     private final List<String> words;
